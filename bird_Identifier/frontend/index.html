@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Identifier Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🐦 Bird Identifier</h1>
+
+    <input type="file" id="fileInput" accept="image/*">
+
+    <div class="images">
+        <div class="image-box">
+            <p>Uploaded Image</p>
+            <img id="preview" alt="Uploaded preview">
+        </div>
+    </div>
+
+    <button onclick="uploadImage()">Predict</button>
+
+    <h2 id="result"></h2>
+
+    <div class="progress">
+        <div id="bar"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
