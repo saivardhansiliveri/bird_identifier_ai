@@ -20,3 +20,18 @@ An AI-powered web application that identifies bird species from images using Dee
 ---
 
 ## 📂 Project Structure
+backend/ → ML model & API
+frontend/ → UI
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### Backend
+```bash
+pip install -r requirements.txt
+python app.py
+Frontend
+
+Open index.html in browser
